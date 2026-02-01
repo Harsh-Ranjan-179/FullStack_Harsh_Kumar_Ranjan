@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #fafaf9;
+    color: #1f2937;
+}
+
+header {
+    background-color: #0f766e;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px; /* rounded bottom */
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 18px;
+    font-size: 14px;
+}
+
+.hero {
+    background-color: #e6fffa;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero h1 {
+    color: #0f766e;
+    margin-bottom: 5px;
+}
+
+.search-box {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.main {
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+}
+
+.job-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.job-card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.job-card h3 {
+    color: #0f766e;
+    margin-bottom: 5px;
+}
+
+.job-card p {
+    font-size: 14px;
+    margin: 3px 0;
+}
+
+.job-card button {
+    margin-top: 8px;
+    padding: 6px 14px;
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.login-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-box img {
+    width: 80px;
+    display: block;
+    margin: 10px auto;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 8px;
+    background-color: #f97316;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+footer {
+    background-color: #0f766e;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+    font-size: 14px;
+    border-radius: 10px 10px 0 0;
+}
