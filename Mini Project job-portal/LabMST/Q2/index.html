@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Q2</title>
+
+<style>
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+#para{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: hsl(200, 100%, 40%);
+}
+</style>
+
+</head>
+
+<body>
+
+<p id="para">Hello World</p>
+
+<button onclick="changeText()">Click Me</button>
+
+<script>
+function changeText() {
+  let p = document.getElementById("para");
+
+  p.textContent = "Welcome to JavaScript DOM Manipulation";
+  p.style.color = "blue";
+  p.style.fontSize = "24px";
+}
+</script>
+
+</body>
+</html>
